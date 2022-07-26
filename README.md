@@ -15,7 +15,7 @@ git账户名称：baekhunee
 
 # 部分代码说明
 ## def epoint_mod(a, n)
-定义椭圆曲线上的模运算即返回值等于a mod n
+定义椭圆曲线上的模运算，返回值等于a mod n
 
 ## def epoint_modmult(a, b, n)
 定义椭圆曲线上的模乘运算，返回值等于a*b^(-1) mod n
