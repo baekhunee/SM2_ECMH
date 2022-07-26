@@ -133,20 +133,3 @@ if __name__ == '__main__':
     print("s:\n",s)
     print("hash value of s:\n",r)
     
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
