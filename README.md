@@ -1,9 +1,6 @@
 # 实验名称
 Elliptic curve MultiSet Hash
 
-# 实验简介
-
-
 # 实验完成人
 权周雨 
 
