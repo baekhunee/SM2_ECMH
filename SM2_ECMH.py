@@ -42,7 +42,7 @@ def epoint_add(P, Q, a, p):
             l = epoint_modmult(3 * P[0] ** 2 + a, 2 * P[1], p)
         X = epoint_mod(l ** 2 - P[0] - Q[0], p)
         Y = epoint_mod(l * (P[0] - X) - P[1], p)
-        Z = [x, y]
+        Z = [X, Y]
     return Z
 
 #点乘：kP
