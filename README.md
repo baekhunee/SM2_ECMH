@@ -9,7 +9,7 @@ Elliptic curve MultiSet Hash
 git账户名称：baekhunee
 
 # ECMH
-ECMH整体思路为把哈希值映射成椭圆曲线上的点，然后利用ECC的加法。
+ECMH整体思路是把元素值映射成椭圆曲线上的点，然后利用椭圆曲线上的加法求解哈希值。
 为达到相同的安全性，ECMH算法需要的密钥长短远远小于哈希求和算法，因而ECMH相较哈希求和算法更为安全。
 
 # 部分代码说明
